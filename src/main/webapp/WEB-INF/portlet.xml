@@ -19,6 +19,14 @@
 			<title>Sender Object Portlet</title>
 			<short-title>Sender Object Portlet</short-title>
 		</portlet-info>
+		<supported-processing-event>
+			<qname xmlns:n="http://portlet.apiconz.info">n:personEvent</qname>
+		</supported-processing-event>
 	</portlet>
+
+	<event-definition>
+		<qname xmlns:n="http://portlet.apiconz.info">n:personEvent</qname>
+		<value-type>pe.com.apiconz.example.event.PersonEvent</value-type>
+	</event-definition>
 
 </portlet-app>
