@@ -19,6 +19,9 @@
 			<title>Receiver Object Portlet</title>
 			<short-title>Receiver Object Portlet</short-title>
 		</portlet-info>
+		<supported-processing-event>
+			<qname xmlns:n="http://portlet.apiconz.info">n:personEvent</qname>
+		</supported-processing-event>
 	</portlet>
 	<portlet>
 		<description>Portlet Sender</description>
@@ -35,9 +38,9 @@
 			<title>Sender Object Portlet</title>
 			<short-title>Sender Object Portlet</short-title>
 		</portlet-info>
-		<supported-processing-event>
+		<supported-publishing-event>
 			<qname xmlns:n="http://portlet.apiconz.info">n:personEvent</qname>
-		</supported-processing-event>
+		</supported-publishing-event>
 	</portlet>
 
 	<event-definition>
